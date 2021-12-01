@@ -10,10 +10,8 @@
 
 ### Added
 
-- Added examples to Switch component ([c9c14ef687](https://github.com/facebook/react-native/commit/c9c14ef6872eb90b7305e0bc19cded76ce851186) by [@suminkimm](https://github.com/suminkimm))
 - Added `cancelButtonTintColor` prop for `ActionSheetIOS` to change only the text color of the cancel button ([01856633a1](https://github.com/facebook/react-native/commit/01856633a1d42ed3b26e7cc93a007d7948e1f76e) by [@nomi9995](https://github.com/nomi9995))
 - Added [LSApplicationQueriesSchemes](https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/LaunchServicesKeys.html#//apple_ref/doc/uid/TP40009250-SW14) in info.plist with entries tel, telprompt, http, fb, geo ([b26f277262](https://github.com/facebook/react-native/commit/b26f2772624c863c91fa1ff627b481c92d7562fb) by [@utkarsh-dixit](https://github.com/utkarsh-dixit))
-- Adding Accessibility Display Options Enabled to RNTester ([2abacace54](https://github.com/facebook/react-native/commit/2abacace54dc72bac1a5d7f2fb795edd89374b1c) by [@graytmatterMS](https://github.com/graytmatterMS))
 
 #### Android specific
 
@@ -45,8 +43,6 @@
 - Upgraded react-devtools-core dependency to 4.19.1 ([356236471a](https://github.com/facebook/react-native/commit/356236471abc6b5b8c139223e15388fd1eecd2d1) by [@jstejada](https://github.com/jstejada))
 - Changed the showcase URL ([1927ceb552](https://github.com/facebook/react-native/commit/1927ceb5520e36c5ca92e349ee1b860093290c15) by [@HeroBanana](https://github.com/HeroBanana))
 - ImageBackground now respects `imageStyle` width and height ([dbd5c3d8e5](https://github.com/facebook/react-native/commit/dbd5c3d8e5e35685be89156194a96cead553a330) by [@Naturalclar](https://github.com/Naturalclar))
-- React Native sync for revisions 95d762e...e8feb11 ([88021894f2](https://github.com/facebook/react-native/commit/88021894f2645266d7e1b0a2e61a737b1590d039) by [@kacieb](https://github.com/kacieb))
-- React Native sync for revisions bd5bf55...95d762e ([7f7f8188f2](https://github.com/facebook/react-native/commit/7f7f8188f2ed3cb40b85e7f1ad65fdf31b678ffc) by [@rickhanlonii](https://github.com/rickhanlonii))
 - Remove defaultProps from the DrawerLayoutAndroid Component ([b998e32501](https://github.com/facebook/react-native/commit/b998e32501ab13525a1a7c711d5ad090e3d23d9f) by [@mdaj06](https://github.com/mdaj06))
 - React-native/normalize-color now supports Node.js ([65e58f26e1](https://github.com/facebook/react-native/commit/65e58f26e1fbd06b1ae32e2ab3a2616c8eef08e0) by [@yungsters](https://github.com/yungsters))
 - Updated to Contributor Covenant v2.1 ([19f8d2f7da](https://github.com/facebook/react-native/commit/19f8d2f7da13f4524f31acf7aa10cc0aa91b5da4))
@@ -88,7 +84,7 @@
 
 #### Android specific
 
-- Remove DatePickerAndroid from react-native-github ([7a770526c6](https://github.com/facebook/react-native/commit/7a770526c626e6659a12939f8c61057a688aa623) by [@andresantonioriveros](https://github.com/andresantonioriveros))
+- Remove `DatePickerAndroid` from react-native. ([7a770526c6](https://github.com/facebook/react-native/commit/7a770526c626e6659a12939f8c61057a688aa623) by [@andresantonioriveros](https://github.com/andresantonioriveros))
 
 #### iOS specific
 
@@ -97,10 +93,9 @@
 - Updated documentation link in `View`. ([4790146374](https://github.com/facebook/react-native/commit/47901463746391ab28085d2c9d9734b9710dee58) by [@mdvacca](https://github.com/mdvacca))
 - Update metro config language to `blockList` ([7923804c28](https://github.com/facebook/react-native/commit/7923804c28aac731396f0db112cb6c3a9d30c08f) by [@rh389](https://github.com/rh389))
 - Ignores global npm prefix ([6334ac35ac](https://github.com/facebook/react-native/commit/6334ac35ac3cbc2c84b2d46d46ec118bf9bf714d) by [@redreceipt](https://github.com/redreceipt))
-- Summary: Changelog: [General][fixed] Support Animated.ValueXY when validating Animated.event ([27dd2ecb70](https://github.com/facebook/react-native/commit/27dd2ecb70f1d08787c93a2e18250ffaff328e5f) by [@javache](https://github.com/javache))
+- Support `Animated.ValueXY` when validating `Animated.event`. ([27dd2ecb70](https://github.com/facebook/react-native/commit/27dd2ecb70f1d08787c93a2e18250ffaff328e5f) by [@javache](https://github.com/javache))
 - Add a function `getIgnorePatterns` in `LogBoxData.js` for tests or other usecases. ([a950634424](https://github.com/facebook/react-native/commit/a950634424cddf31c0adb6c9799adf1cc5f83bf0))
 - Copy repo-config dependencies for bumping release version ([963254e2ec](https://github.com/facebook/react-native/commit/963254e2ec31fd5897d46e51862feba5d65a7e5b) by [@lunaleaps](https://github.com/lunaleaps))
-- Fix "Running on device" in RNTester README ([21b2d6c8e7](https://github.com/facebook/react-native/commit/21b2d6c8e7e137ae161a4f7ceee2f7d9888fb501) by [@osdnk](https://github.com/osdnk))
 
 #### Android specific
 
